@@ -1,0 +1,22 @@
+class program {
+    program () {
+        // TODO poner codigo aqui
+        iterate (4)
+        while (frontIsClear)
+        {
+          putbeeper();
+          move();
+          if (frontIsBlocked)
+          {
+            turnleft();
+            turnleft();
+            turnleft();
+          }
+          if (nextToABeeper)
+          {
+           turnoff(); 
+          } 
+         }
+        turnoff();
+    }
+}

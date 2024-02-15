@@ -1,0 +1,17 @@
+class program {
+ void avanza(n) {
+ if (iszero(n)) {
+      pickbeeper();
+   }
+   else {
+   iterate (n) {
+     putbeeper();
+     }
+    }
+    }
+    program () {
+        // TODO poner codigo aqui
+        avanza(0);
+        turnoff();
+    }
+}

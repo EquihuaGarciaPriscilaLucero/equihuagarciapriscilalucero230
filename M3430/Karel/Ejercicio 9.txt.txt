@@ -1,0 +1,12 @@
+class program {
+  void avanza(n) {
+   iterate(n) {
+     move();
+    }
+  }
+    program () {
+        // TODO poner codigo aqui
+        avanza(3);
+        turnoff();
+    }
+}

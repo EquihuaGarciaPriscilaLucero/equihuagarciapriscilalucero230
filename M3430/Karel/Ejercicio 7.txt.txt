@@ -1,0 +1,21 @@
+class program {
+void turnringht () {
+ turnleft();
+ turnleft();
+ turnleft();
+ }
+    program () {
+        // TODO poner codigo aqui
+        iterate (7)
+        {
+        turnringht();
+        move();   
+        turnleft();
+        move();
+        if (nextToABeeper) {
+        pickbeeper();
+        }
+      }
+        turnoff();
+    }
+}
